@@ -1,0 +1,84 @@
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Honk&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Hanalei+Fill&family=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* 100% viewport height */
+    /* font-family: 'IBM Plex Mono', monospace; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw4ZbWYurgzOvmnMZc8eYrjtQhG8iWbg2ejmDwWlgVq4-580df");
+    background-repeat: repeat;
+}
+
+form {
+    display: block;
+    width: 700px;
+    padding: 2%;
+    border-radius: 30px;
+    border: 10px solid darkolivegreen;
+    /* font-family: 'Honk', system-ui; */
+    font-family: 'Freckle Face', system-ui;
+    color:rgb(105, 52, 15);
+    background-color: peru;
+    box-shadow: 15px 15px 20px rgb(175, 1, 1);
+}
+
+h1 {
+    color:moccasin;
+    /* font-family: 'Freckle Face', system-ui; */
+    text-shadow: 6px 5px 2px rgb(175, 1, 1);
+    font-size: 65px;
+    text-align: center;
+}
+
+h4 {
+    color:rgb(80, 80, 0);
+    font-family: 'Hanalei Fill', system-ui;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* .input_margin {
+    margin: 10px;
+} */
+
+label {
+font-size: 25px ;
+}
+
+.col_30 {
+    width: 30%;
+}
+
+.col_40 {
+    width: 40%;
+}
+
+.col_50 {
+    width: 50%;
+}
+
+.col_60 {
+    width: 60%;
+}
+
+.flex {
+    display: block;
+  }
+
+footer {
+    height: 150px;
+    width: 100%;
+        background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.giphy.com%2Fmedia%2Fl0IxZG9R9t4V5Y2li%2Fsource.gif&f=1&nofb=1&ipt=16715eb5cfc2fb87d9b4c233cad7807a205f8773c238d96c88e019485bdb212c&ipo=images");
+    background-repeat: repeat;
+}

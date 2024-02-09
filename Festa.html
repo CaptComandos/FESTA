@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <form>
+    <h1>FESTA del COCKTAIL</h1>
+    <h4>La Revetlla que et desvetlla !</h4>
+    <!-- nom i cognoms -->
+    <div class="flex">
+      <!-- nom -->
+      <div class="col_40 input_margin">
+        <label for="nom">Nom: </label>
+        <input type="text" id="nom" placeholder="Em dic ...">
+      </div>
+      <!-- cognoms -->
+      <div class="col_60 input_margin">
+        <label for="cogn">Cognoms: </label>
+        <input type="text" id="cogn" placeholder="Els meus cognoms son ...">
+      </div>
+      <!-- quantitat entrades -->
+      <label for="Entrades">Entrades: </label>
+      <select name="Entrades" class="col_30 input_margin">
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+        <option value="">6</option>
+        <option value="">7</option>
+        <option value="">8</option>
+        <option value="">9</option>
+        <option value="">10</option>
+      </select>
+      <!-- talonari de copes -->
+      <label for="Talonari">Talonari de copes: </label>
+      <select name="Talonari" class="col_40 input_margin">
+        <option value="">10 x 100 -10% = 90€</option>
+        <option value="">20 x 200 -20% = 160€</option>
+        <option value="">30 x 300 -30% = 210€</option>
+      </select>
+      <!-- cotillons -->
+      <label for="Cotillons">Cotillons: </label>
+      <select name="Cotillons" class="col_30 input_margin">
+        <option value="">1</option>
+        <option value="">50</option>
+        <span>x2€</span>
+      </select>
+      <!-- teléfon -->
+      <div class="col_50">
+        <label for="tlf">Teléfon: </label>
+        <input type="tel" id="tlf" placeholder="El meu  teléfon és ...">
+      </div>
+      <!-- pagament -->
+      <label for="paga">Sistema de pagament: </label>
+      <select name="paga" class="col_50">
+        <option value="">Tarja bancària</option>
+        <option value="">Transferéncia</option>
+        <option value="">Gir postal</option>
+        <option value="">Criptomonedes</option>
+        </select>
+        <!-- botó de confirmar compra -->
+        <button type="submit">Confirmar compra</button>
+        <!-- selector de termes i condicions -->
+    </div>
+  </form>
+</body>
+
+<footer>
+
+</footer>
+
+</html>
